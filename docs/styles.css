@@ -1,0 +1,61 @@
+* {
+  display: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #5f2c82, #49a09d);
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: #0a0a0a;
+}
+
+.palindrome {
+  border-radius: 24px;
+  border: 2px solid salmon;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 3px solid salmon;
+  margin-top: 20px;
+}
+
+button {
+  background-color: salmon;
+  border: 0;
+  padding: 0.4rem;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.text-info {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.about {
+  background-color: #B5D6B2;
+  padding: 1rem;
+  border-radius: 24px;
+  border: 2px solid salmon;
+  max-width: 300px;
+  text-align: center;
+  font-weight: bold;
+}
